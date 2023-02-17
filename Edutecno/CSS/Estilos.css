@@ -1,0 +1,160 @@
+@charset “utf-8”;
+
+@font-face{
+font-family:'Pfennig';
+src:url(../Fuentes/Pfennig.eot);
+src:url(../Fuentes/Pfennig.svg);
+src:url(../Fuentes/Pfennig.ttf);
+}
+@font-face{
+font-family:'PfennigBold';
+src:url(../Fuentes/PfennigBold.eot);
+src:url(../Fuentes/PfennigBold.svg);
+src:url(../Fuentes/PfennigBold.ttf);
+}
+@font-face{
+font-family:'PfennigItalic';
+src:url(../Fuentes/PfennigBoldItalic.eot);
+src:url(../Fuentes/PfennigBoldItalic.svg);
+src:url(../Fuentes/PfennigBoldItalic.ttf);
+}
+
+/*Fuentes*/
+body{
+font-family:'Pfennig';
+}
+h1, h2, h3, strong, b{
+font-family:'PfennigBold';
+}
+dfn, blockquote{
+font-family:'PfennigItalic';
+}
+#barra a{
+font-family:'PfennigBold';
+text-decoration:none;
+}
+/*Tamaño de la fuente*/
+#principal{
+font-size:1em;
+text-align:justify;
+}
+#CabeceraPágina h1{
+font-size:1em;
+text-align:center;
+line-height:0%;
+font-variant:small-caps;
+}
+#CabeceraPágina h2{
+font-size:250%;
+text-align:center;
+
+}
+h2{
+font-size:200%;
+text-align:center;
+line-height:10%;
+}
+h3{
+font-size:170%;
+text-align:center;
+line-height:10%;
+}
+#barra a:link{ font-weight:bold}
+
+
+#principal{
+	background-color:#c7ecee;
+	width:1000px;
+  margin:auto;
+}
+
+#CabeceraPágina { 
+background-color:#686de0;	
+border:double
+
+}
+
+#barra{
+background-color:#7ed6df;
+
+} 
+
+/*Barra de navegación cabecera*/
+#barra{
+       background-color:#58B19F;}
+       height:50px;
+       padding:5px;
+       } 
+#barra ul li:nth-child(1){
+background:#d1d8e0;
+}
+#barra ul li:nth-child(2){
+background: #d1d8e0;
+}
+#barra ul li:nth-child(3){
+	background: #d1d8e0;
+}
+#barra ul li:nth-child(4){
+	background: #d1d8e0;
+}
+#barra ul li:nth-child(5){
+	background: #d1d8e0;
+}
+#barra ul li {
+             display:inline;
+             margin:10px;
+             background-color:#9AECDB;
+             padding:5px 5px 5px 5px;
+             box-shadow: -10px -10px #5352ed;
+             }
+header:not(#CabeceraPágina){
+background-color:#18dcff;
+}
+
+/*Vínculos*/
+a:link {
+color: #6D214F;
+}
+a:visited {
+color: #6D214F;
+}
+a:hover {
+color:#6D214F;
+}
+a:active:visited {
+color:#6D214F;
+}
+
+/*Artículos*/
+article p:nth-of-type(odd){
+background-color:#3B3B98;
+}
+article p:nth-of-type(even){
+background-color:#3B3B98;
+}
+
+      p, h1, h2, h3 {
+        padding:10px
+      }
+
+/*formulario*/
+#formulario{
+width: 28%;
+margin: 0 auto;
+background: url(Documentos/Edutecno/Sesion.jpg);
+}
+#formulario p, fieldset{
+background-color:rgba(250,250,250,.5)
+
+}
+
+#sobreContxita img{
+margin:-15px;
+width:400px;
+height:400px;
+margin:0px 50px 0px 100px
+ }
+
+ .sombra{
+text-shadow:4px 4px 4px #ffffff;
+}
